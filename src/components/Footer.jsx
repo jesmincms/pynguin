@@ -74,6 +74,15 @@ export default function Footer() {
             <li>Pet Policy</li>
           </ul>
         </div>
+        <div className="mb-6">
+          <h6 className="uppercase mb-3 lg:mb-6">Property Owners</h6>
+          <ul className="flex flex-col gap-3 lg:gap-5 text-sm lg:text-base">
+            <li>Portal</li>
+            <li>Our Services</li>
+            <li>Our Pricing </li>
+            <li>FAQs</li>
+          </ul>
+        </div>
       </div>
       <div className="flex justify-between flex-wrap-reverse">
         <p className="max-w-[400px] text-[#888] mt-10 lg:mt-[90px] text-xs">
