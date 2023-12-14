@@ -1,4 +1,4 @@
-import { Menu, Button, Drawer } from "antd";
+import { Button, Drawer, Menu } from "antd";
 import { useState } from "react";
 
 const items = [
@@ -44,7 +44,7 @@ export default function Header() {
 
   return (
     <div>
-      <div className="bg-[#EDEDED] min-h-[70px] flex items-center px-2 lg:px-[50px] justify-between ">
+      <div className="bg-[#EDEDED] min-h-[60px] flex items-center px-2 lg:px-[50px] justify-between ">
         <div className="flex gap-2 w-fit">
           <img src="/icons/facebook.svg" alt="" className="invert" />
           <img src="/icons/instagram.svg" alt="" className="invert" />
@@ -64,7 +64,7 @@ export default function Header() {
           </span>
         </div>
       </div>
-      <div className="bg-[#fff] md:h-[90px] flex items-baseline lg:items-end px-2 lg:px-[50px] justify-between text-left gap-2">
+      <div className="bg-[#fff] md:h-[75px] flex items-baseline lg:items-end px-2 lg:px-[50px] justify-between text-left gap-2">
         <img
           src="/logo.png"
           alt=""

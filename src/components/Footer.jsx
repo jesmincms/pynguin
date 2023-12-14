@@ -77,12 +77,9 @@ export default function Footer() {
       </div>
       <div className="flex justify-between flex-wrap-reverse">
         <p className="max-w-[400px] text-[#888] mt-10 lg:mt-[90px] text-xs">
-          Copyright © 2023 GC Realty & Development, LLC All Rights Reserved.
+          Copyright © 2023 GC Realty & Development, LLC All Rights Reserved. 
           <br />
-          GC Realty & Development, LLC is committed to ensuring that its website
-          is accessible to people with disabilities. All the pages on our
-          website will meet W3C WAI's Web Content Accessibility Guidelines 2.0,
-          Level A conformance.
+GC Realty & Development, LLC is committed to ensuring that its website is accessible to people with disabilities. All the pages on our website will meet W3C WAI's Web Content Accessibility Guidelines 2.0, Level A conformance. 
         </p>
         <div className="ml-px lg:ml-auto flex flex-wrap lg:justify-end max-w-[518px]">
           <img src="/logos/image 14.png" alt="" className="inline-block mr-3" />

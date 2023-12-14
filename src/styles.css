@@ -54,10 +54,9 @@ code {
 }
 .home-banner {
   background-image: url("/public/images/home-banner.png");
-  background-position: bottom left;
+  background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 400px;
 }
 .black-to-yellow {
   filter: invert(80%) sepia(26%) saturate(1559%) hue-rotate(337deg)
