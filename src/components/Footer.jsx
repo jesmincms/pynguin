@@ -8,14 +8,14 @@ export default function Footer() {
           <img src="/logo.png" alt="" className="mb-10" />
           <div className="flex flex-col gap-5">
             <p className="w-fit flex gap-2">
-              <img src="/icons/phone.svg" alt="" /> 407.656.0000.
+              <img src="/icons/phone.svg" alt="" /> <a href="tel:407-656-8600">407.656.8600.</a>
             </p>
             <p className="w-fit text-left">
-              219 E Irving Park Rd.
+            <a href="">6735 Conroy Windemere Rd Ste 311
               <br />
-              Roselle, IL 60172
+              Orlando, FL 32835</a>
             </p>
-            <p className="w-fit">contactus@gcrealtyinc.com</p>
+            <p className="w-fit"><a href="mailto:info@pynguin.com">info@pynguin.com</a></p>
             <div className="flex gap-2">
               <img src="/icons/facebook.svg" alt="" />
               <img src="/icons/instagram.svg" alt="" />
@@ -86,9 +86,9 @@ export default function Footer() {
       </div>
       <div className="flex justify-between flex-wrap-reverse">
         <p className="max-w-[400px] text-[#888] mt-10 lg:mt-[90px] text-xs">
-          Copyright © 2023 GC Realty & Development, LLC All Rights Reserved. 
+        Copyright &copy; 2010-2024 Pynguin Property Management, LLC All Rights Reserved.
           <br />
-GC Realty & Development, LLC is committed to ensuring that its website is accessible to people with disabilities. All the pages on our website will meet W3C WAI's Web Content Accessibility Guidelines 2.0, Level A conformance. 
+Pynguin Property Management, LLC is committed to ensuring that its website is accessible to people with disabilities. All the pages on our website will meet W3C WAI's Web Content Accessibility Guidelines 2.0, Level A conformance.
         </p>
         <div className="ml-px lg:ml-auto flex flex-wrap lg:justify-end max-w-[518px]">
           <img src="/logos/image 14.png" alt="" className="inline-block mr-3" />

@@ -42,16 +42,13 @@ export default function Header() {
     setState(false);
   };
 
+
+
   return (
     <div>
-      <div className="bg-[#EDEDED] min-h-[60px] flex items-center px-2 lg:px-[50px] justify-between ">
-        <div className="flex gap-2 w-fit">
-          <img src="/icons/facebook.svg" alt="" className="invert" />
-          <img src="/icons/instagram.svg" alt="" className="invert" />
-          <img src="/icons/linkedin.svg" alt="" className="invert" />
-          <img src="/icons/youtube.svg" alt="" className="invert" />
-        </div>
-        <div className="flex w-fit md:gap-10 flex-col md:flex-row">
+      <div className="bg-[#EDEDED] min-h-[60px] flex items-center px-2 lg:px-[50px] justify-end ">
+
+        <div className="flex w-fit md:gap-10 flex-col md:flex-row right">
           <span>Owner Portal</span>
           <span>Tenant Portal</span>
           <span>
@@ -60,7 +57,7 @@ export default function Header() {
               alt=""
               className="inline-block mr-2 invert rotate-90"
             />
-            407.656.0000.
+            <a href="tel:407-656-8600">407.656.8600.</a>
           </span>
         </div>
       </div>
