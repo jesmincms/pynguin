@@ -22,19 +22,25 @@ export default function WhyHomeowners() {
                 {desc}
               </div>
             </div>
-            <img alt="" src={image} className="mt-6 xl:mt-14 md:max-w-fit lg:max-w-full max-h-fit mx-auto" />
+            <img
+              alt=""
+              src={image}
+              className="mx-auto mt-6 xl:mt-14 md:max-w-fit lg:max-w-full max-h-fit"
+            />
           </div>
         ))}
       </div>
 
-      <button className="px-5 py-3 bg-amber-400 rounded-[10px] justify-center items-center gap-1.5 inline-flex mt-10 xl:mt-[70px] font-medium">
-        Explore our pricing
-        <img
-          alt=""
-          src="/icons/arrow-forward.svg"
-          className="inline-block ml-3"
-        />
-      </button>
+      <div className="text-center">
+        <button className="px-5 py-3 bg-amber-400 rounded-[10px] justify-center items-center gap-1.5 inline-flex mt-10 xl:mt-[70px] font-medium">
+          Explore our pricing
+          <img
+            alt=""
+            src="/icons/arrow-forward.svg"
+            className="inline-block ml-3"
+          />
+        </button>
+      </div>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 export default function AsSeenIn() {
   return (
     <div className="relative mt-16 mb-20">
-      <div className="flex-col justify-start items-center gap-5 inline-flex">
+      <div className="flex-col items-center justify-start gap-5">
         <div className="text-center text-stone-900 text-3xl font-extrabold leading-[33px]">
           As Seen In
         </div>

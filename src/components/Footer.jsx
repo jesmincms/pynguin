@@ -1,17 +1,18 @@
 import React from "react";
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <div className="text-white bg-black py-10 lg:py-[100px] px-8 lg:px-[50px] text-left text-[18px]">
-      <div className="flex justify-between flex-wrap gap-10">
+      <div className="flex flex-wrap justify-between gap-10">
         <div>
           <img src="/logo.png" alt="" className="mb-10" />
           <div className="flex flex-col gap-5">
-            <p className="w-fit flex gap-2">
-              <img src="/icons/phone.svg" alt="" /> <a href="tel:407-656-8600">407.656.8600.</a>
+            <p className="flex gap-2 w-fit">
+              <img src="/icons/phone.svg" alt="" /> <a href="tel:407-656-8600">407.656.8600</a>
             </p>
-            <p className="w-fit text-left">
-            <a href="">6735 Conroy Windemere Rd Ste 311
+            <p className="text-left w-fit">
+            <a href="/">6735 Conroy Windemere Rd, Ste 311
               <br />
               Orlando, FL 32835</a>
             </p>
@@ -31,8 +32,8 @@ export default function Footer() {
         </div>
 
         <div>
-          <h6 className="uppercase mb-3 lg:mb-6">Menu</h6>
-          <ul className="flex flex-col gap-3 lg:gap-5 text-sm lg:text-base">
+          <h6 className="mb-3 uppercase lg:mb-6">Menu</h6>
+          <ul className="flex flex-col gap-3 text-sm lg:gap-5 lg:text-base">
             <li>Home</li>
             <li>Services</li>
             <li>Areas we Serve</li>
@@ -44,7 +45,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h6 className="uppercase mb-3 lg:mb-6">Office hours</h6>
+          <h6 className="mb-3 uppercase lg:mb-6">Office hours</h6>
           <ul className="flex flex-col gap-[10px] mb-5 text-sm lg:text-base">
             <li>Monday - Friday</li>
             <li className="text-[#888]">8 a.m - 4 p.m</li>
@@ -56,8 +57,8 @@ export default function Footer() {
         </div>
 
         <div>
-          <h6 className="uppercase mb-3 lg:mb-6">Current Tenants</h6>
-          <ul className="flex flex-col gap-3 lg:gap-5 text-sm lg:text-base">
+          <h6 className="mb-3 uppercase lg:mb-6">Current Tenants</h6>
+          <ul className="flex flex-col gap-3 text-sm lg:gap-5 lg:text-base">
             <li>Portal</li>
             <li>Pay rent</li>
             <li>Repair request</li>
@@ -66,8 +67,8 @@ export default function Footer() {
         </div>
 
         <div className="mb-6">
-          <h6 className="uppercase mb-3 lg:mb-6">Prospective Tenants</h6>
-          <ul className="flex flex-col gap-3 lg:gap-5 text-sm lg:text-base">
+          <h6 className="mb-3 uppercase lg:mb-6">Prospective Tenants</h6>
+          <ul className="flex flex-col gap-3 text-sm lg:gap-5 lg:text-base">
             <li>Available Rentals</li>
             <li>Apply Now</li>
             <li>FAQs</li>
@@ -75,8 +76,8 @@ export default function Footer() {
           </ul>
         </div>
         <div className="mb-6">
-          <h6 className="uppercase mb-3 lg:mb-6">Property Owners</h6>
-          <ul className="flex flex-col gap-3 lg:gap-5 text-sm lg:text-base">
+          <h6 className="mb-3 uppercase lg:mb-6">Property Owners</h6>
+          <ul className="flex flex-col gap-3 text-sm lg:gap-5 lg:text-base">
             <li>Portal</li>
             <li>Our Services</li>
             <li>Our Pricing </li>
@@ -84,11 +85,9 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className="flex justify-between flex-wrap-reverse">
+      <div className="flex flex-wrap-reverse justify-between">
         <p className="max-w-[400px] text-[#888] mt-10 lg:mt-[90px] text-xs">
-        Copyright &copy; 2010-2024 Pynguin Property Management, LLC All Rights Reserved.
-          <br />
-Pynguin Property Management, LLC is committed to ensuring that its website is accessible to people with disabilities. All the pages on our website will meet W3C WAI's Web Content Accessibility Guidelines 2.0, Level A conformance.
+        Copyright © 2010-{currentYear} Pynguin Property Management, LLC All Rights Reserved. Pynguin Property Management, LLC is committed to ensuring that its website is accessible to people with disabilities. All the pages on our website will meet W3C WAI's Web Content Accessibility Guidelines 2.0, Level A conformance.
         </p>
         <div className="ml-px lg:ml-auto flex flex-wrap lg:justify-end max-w-[518px]">
           <img src="/logos/image 14.png" alt="" className="inline-block mr-3" />

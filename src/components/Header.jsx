@@ -3,7 +3,9 @@ import { useState } from "react";
 
 const items = [
   {
-    label: "Home",
+    label: (
+      <a href="/">Home</a>
+    ),
     key: "home",
   },
   {
@@ -15,7 +17,9 @@ const items = [
     key: "Areas we Serve",
   },
   {
-    label: "Pricing",
+    label: (
+      <a href="/pricing">Pricing</a>
+    ),
     key: "Pricing",
   },
   {
@@ -48,16 +52,16 @@ export default function Header() {
     <div>
       <div className="bg-[#EDEDED] min-h-[60px] flex items-center px-2 lg:px-[50px] justify-end ">
 
-        <div className="flex w-fit md:gap-10 flex-col md:flex-row right">
+        <div className="flex flex-col w-fit md:gap-10 md:flex-row right">
           <span>Owner Portal</span>
           <span>Tenant Portal</span>
           <span>
             <img
               src="/icons/phone.svg"
               alt=""
-              className="inline-block mr-2 invert rotate-90"
+              className="inline-block mr-2 rotate-90 invert"
             />
-            <a href="tel:407-656-8600">407.656.8600.</a>
+            <a href="tel:407-656-8600">407.656.8600</a>
           </span>
         </div>
       </div>
@@ -93,7 +97,7 @@ export default function Header() {
             <li>Home</li>
             <li>Services</li>
             <li>Areas we Serve</li>
-            <li>Pricing</li>
+            <li><a href="/pricing">Pricing</a></li>
             <li>Team</li>
             <li>Referrals</li>
             <li>Resources</li>

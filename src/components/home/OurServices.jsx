@@ -5,35 +5,35 @@ export default function OurServices() {
   const accordionData = [
     {
       title: 'Property Marketing',
-      content: `Every application we receive undergoes careful screening to keep you protected. We only place well-qualified tenants in your home that meet our stringent requirements.`
+      content: `Expert property marketing in Florida, showcasing your property to the right audience for faster, profitable leasing. Tenant Screening: Rigorous tenant screening in Central Florida to secure reliable tenants, minimizing risks and ensuring stable tenancies for your properties.`
     },
     {
       title: 'Tenant Screening',
       content: `Every application we receive undergoes careful screening to keep you protected. We only place well-qualified tenants in your home that meet our stringent requirements.`
     },
     {
-      title: 'Maintenance',
-      content: `Every application we receive undergoes careful screening to keep you protected. We only place well-qualified tenants in your home that meet our stringent requirements.`
+      title: 'Maintenance and Repairs',
+      content: `Comprehensive maintenance and swift repair services in Florida to keep properties in top condition, ensuring tenant safety and property value.`
     },
     {
       title: 'Rent Collection',
-      content: `Every application we receive undergoes careful screening to keep you protected. We only place well-qualified tenants in your home that meet our stringent requirements.`
+      content: `Streamlined rent collection in Florida’s dynamic market, ensuring timely payments and maintaining positive tenant relations for optimal income.`
     },
     {
       title: 'Property Inspections',
-      content: `Every application we receive undergoes careful screening to keep you protected. We only place well-qualified tenants in your home that meet our stringent requirements.`
+      content: `Thorough property inspections in Florida, documenting conditions and ensuring upkeep, preserving property allure and value, giving owners peace of mind.`
     },
     {
       title: 'Financial Reporting',
-      content: `Every application we receive undergoes careful screening to keep you protected. We only place well-qualified tenants in your home that meet our stringent requirements.`
+      content: `Transparent financial reporting for Florida properties, providing regular, detailed insights into income and expenses for informed decision-making.`
     },
     {
       title: 'Evictions',
-      content: `Every application we receive undergoes careful screening to keep you protected. We only place well-qualified tenants in your home that meet our stringent requirements.`
+      content: `Professional, legally compliant eviction processes in Florida, resolving issues amicably or acting decisively to protect properties and minimize disruptions.`
     },
     {
       title: 'Legal Guidance',
-      content: `Every application we receive undergoes careful screening to keep you protected. We only place well-qualified tenants in your home that meet our stringent requirements.`
+      content: `Expert navigation of Florida’s property laws to ensure your investment’s compliance and protection from legal pitfalls.`
     }
   ];
 
