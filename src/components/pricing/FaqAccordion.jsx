@@ -1,4 +1,11 @@
-const Accordion = ({ title, content, index, activeIndex, setActiveIndex, setIsActive }) => {
+const FaqAccordion = ({
+  title,
+  content,
+  index,
+  activeIndex,
+  setActiveIndex,
+  setIsActive,
+}) => {
   const isActive = index === activeIndex;
 
   const handleClick = () => {
@@ -12,17 +19,16 @@ const Accordion = ({ title, content, index, activeIndex, setActiveIndex, setIsAc
         onClick={handleClick}
       >
         <div>{title}</div>
-
-        <div
-          className={`w-9 h-8 bg-zinc-300 bg-opacity-0 rounded-md border-2 border-black ${
-            isActive ? "rotate-180" : ""
-          }`}
-        >
-          <img src="/icons/arrow 1.svg" alt="" />
+        <div className={`w-8 h-8 bg-[#FFC629] bg-opacity-0`}>
+          <img
+            className={`${isActive ? "rotate-180" : ""}`}
+            src="/icons/faq_arrow_down.svg"
+            alt=""
+          />
         </div>
       </div>
       {isActive && (
-        <div className="accordion-cotext-black text-[22px] font-normal font-['Helvetica Light'] leading-[37px] ml-10 mb-4">
+        <div className="accordion-cotext-black text-[22px] font-normal font-['Helvetica Light'] leading-[37px] mb-4">
           {content}
         </div>
       )}
@@ -31,4 +37,4 @@ const Accordion = ({ title, content, index, activeIndex, setActiveIndex, setIsAc
   );
 };
 
-export default Accordion;
+export default FaqAccordion;

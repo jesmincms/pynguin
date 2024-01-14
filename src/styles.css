@@ -44,6 +44,10 @@ code {
   color: #61dafb;
 }
 
+.header :where(.css-dev-only-do-not-override-nllxry).ant-menu-horizontal {
+  border-bottom: none;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -61,4 +65,178 @@ code {
 .black-to-yellow {
   filter: invert(80%) sepia(26%) saturate(1559%) hue-rotate(337deg)
     brightness(110%) contrast(101%);
+}
+
+.progress .progress__item {
+  position: relative;
+}
+.progress .progress__item::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  top: 47px;
+  left: 0;
+  z-index: 1;
+}
+.progress__item:nth-child(4) {
+  padding-left: 50px;
+}
+.progress__item:nth-child(7) {
+  padding-left: 50px;
+}
+.progress__item:nth-child(10) {
+  padding-left: 50px;
+}
+.progress__item:nth-child(13) {
+  padding-left: 50px;
+}
+
+.progress__item:first-child::after {
+  left: 60px;
+}
+.progress__item:nth-child(2)::after{
+  left: 55px;
+}
+.progress__item:nth-child(2)::after{
+  left: 55px;
+}
+.progress__item:nth-child(4)::after{
+  width: 112%;
+}
+.progress__item:nth-child(5)::after{
+  left: 55px;
+}
+.progress__item:nth-child(7)::after{
+  width: 112%;
+}
+.progress__item:nth-child(8)::after{
+  left: 55px;
+}
+.progress__item:nth-child(10)::after{
+  width: 112%;
+}
+.progress__item:nth-child(11)::after{
+  left: 55px;
+}
+.progress__item:nth-child(13)::after{
+  width: 112%;
+}
+.progress__item:nth-child(14)::after{
+  left: 55px;
+}
+
+.progress .progress__item::before {
+  position: absolute;
+  content: url(/public/images/play_icon.svg);
+  width: 35px;
+  height: 35px;
+  top: 32px;
+  left: 60%;
+  transform: translateX(-40%);
+}
+.progress__item:nth-child(4)::before{
+  content: url(/public/images/play_icon_right.svg);
+}
+.progress__item:nth-child(5)::before{
+  content: url(/public/images/play_icon_right.svg);
+}
+.progress__item:nth-child(6)::before{
+  content: url(/public/images/play_icon_right.svg);
+}
+
+.progress .progress__item .progress_item_3::after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 123%;
+  background-color: #000;
+  right: 0;
+  top: 47px;
+}
+.progress .progress__item .progress_item_6::after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 123%;
+  background-color: #000;
+  left: 0;
+  top: 47px;
+}
+.progress .progress__item .progress_item_3::before {
+  position: absolute;
+  content: url(/public/images/play_icon_down.svg);
+  width: 35px;
+  height: 35px;
+  top: 85%;
+  right: -17px;
+  transform: translateY(-60%);
+}
+.progress .progress__item .progress_item_6::before {
+  position: absolute;
+  content: url(/public/images/play_icon_down.svg);
+  width: 35px;
+  height: 35px;
+  top: 85%;
+  left: -15px;
+  transform: translateY(-60%);
+}
+
+@media screen and (max-width: 1280px) {
+  .progress .progress__item::before {
+    left: 70%;
+  }
+  .progress .progress__item .progress_item_3::after {
+    height: 110%;
+  }
+  .progress .progress__item .progress_item_6::after {
+    height: 112%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .progress .progress__item .progress_item_3::after {
+    display: none;
+  }
+  .progress .progress__item .progress_item_3::before {
+    display: none;
+  }
+  .progress .progress__item .progress_item_6::after {
+    display: none;
+  }
+  .progress .progress__item .progress_item_6::before {
+    display: none;
+  }
+  .progress__item:nth-child(4) {
+    padding-left: 0;
+  }
+  .progress__item:nth-child(7) {
+    padding-left: 0;
+  }
+  .progress__item:nth-child(10) {
+    padding-left: 0;
+  }
+  .progress__item:nth-child(13) {
+    padding-left: 0;
+  }
+  .progress .progress__item::after {
+    display: none;
+  }
+  .progress .progress__item::before {
+    display: none;
+  }
+}
+
+.helpful_articles .swiper-pagination {
+  padding-top: 40px;
+}
+.helpful_articles .swiper-slide {
+  margin-bottom: 40px;
+}
+.helpful_articles .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+}
+.helpful_articles .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #FFC629;
 }

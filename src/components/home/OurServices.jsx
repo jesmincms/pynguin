@@ -1,6 +1,7 @@
+import { useState } from 'react';
 import Accordion from './Accordion';
 export default function OurServices() {
-
+  const [activeIndex, setActiveIndex] = useState(null);
   
   const accordionData = [
     {
@@ -54,9 +55,16 @@ export default function OurServices() {
 
 
 
-        {accordionData.map(({ title, content }) => (
-          <Accordion title={title} content={content} />
-        ))}
+        {accordionData.map((item, index) => (
+            <Accordion
+              key={index}
+              index={index}
+              title={item.title}
+              content={item.content}
+              activeIndex={activeIndex}
+              setActiveIndex={setActiveIndex}
+            />
+          ))}
             
 
 

@@ -49,7 +49,7 @@ export default function Header() {
 
 
   return (
-    <div>
+    <div className="header">
       <div className="bg-[#EDEDED] min-h-[60px] flex items-center px-2 lg:px-[50px] justify-end ">
 
         <div className="flex flex-col w-fit md:gap-10 md:flex-row right">
@@ -65,17 +65,17 @@ export default function Header() {
           </span>
         </div>
       </div>
-      <div className="bg-[#fff] md:h-[75px] flex items-baseline lg:items-end px-2 lg:px-[50px] justify-between text-left gap-2">
+      <div className="bg-[#fff] py-6 flex items-center px-2 lg:px-[50px] justify-between text-left gap-2">
         <img
           src="/logo.png"
           alt=""
-          className="invert md:w-[218px] object-contain"
+          className="invert md:w-[180px] object-contain"
         />
-        <div className="hidden md:flex">
+        <div className="hidden lg:flex">
           <Menu mode="horizontal" items={items} className="text-lg" />
         </div>
         <Button
-          className="block md:hidden"
+          className="block lg:hidden"
           type="primary"
           shape="circle"
           icon={<img src="/icons/menu.svg" alt="" />}

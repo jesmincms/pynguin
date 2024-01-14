@@ -5,6 +5,9 @@ import PricingBanner from "../components/pricing/PricingBanner";
 import PricingTable from "../components/pricing/PricingTable";
 import Service from "../components/pricing/Service";
 import Progress from "../components/pricing/Progress";
+import Faq from "../components/pricing/Faq";
+import ServicesExplained from "../components/pricing/ServicesExplained";
+import HelpfulArticles from "../components/pricing/HelpfulArticles";
 export default function PricingPage() {
   return (
     <>
@@ -13,6 +16,9 @@ export default function PricingPage() {
       <PricingTable />
       <Service />
       <Progress />
+      <Faq />
+      <ServicesExplained />
+      <HelpfulArticles />
       <Footer />
     </>
   );
