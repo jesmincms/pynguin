@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function WhyHomeowners() {
   return (
     <div className="bg-white mb-10 sm:mb-[90px]">
@@ -32,14 +34,14 @@ export default function WhyHomeowners() {
       </div>
 
       <div className="text-center">
-        <button className="px-5 py-3 bg-amber-400 rounded-[10px] justify-center items-center gap-1.5 inline-flex mt-10 xl:mt-[70px] font-medium">
+        <Link to="/pricing" className="px-5 py-3 bg-amber-400 rounded-[10px] justify-center items-center gap-1.5 inline-flex mt-10 xl:mt-[70px] font-medium">
           Explore our pricing
           <img
             alt=""
             src="/icons/arrow-forward.svg"
             className="inline-block ml-3"
           />
-        </button>
+        </Link>
       </div>
     </div>
   );

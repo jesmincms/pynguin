@@ -13,8 +13,8 @@ import WhyHomeowners from "../components/home/WhyHomeowners";
 import WhyTenants from "../components/home/WhyTenants";
 import RentalAnalysis from "../components/home/RentalAnalysis";
 import AreasWeServeInFlorida from "../components/home/AreasWeServeInFlorida";
-import ArticlesAndPodcasts from "../components/home/ArticlesAndPodcasts";
 import Ebooks from "../components/home/Ebooks";
+import HelpfulArticles from "../components/HelpfulArticles";
 
 export default function HomePage() {
   return (
@@ -32,7 +32,7 @@ export default function HomePage() {
       <WhyTenants />
       <RentalAnalysis />
       <AreasWeServeInFlorida />
-      <ArticlesAndPodcasts />
+      <HelpfulArticles />
       <Ebooks />
       <Footer />
     </div>

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function HomeBanner() {
   return (
     <div className="home-banner flex flex-col justify-center items-center md:pt-12 md:pb-[270px] px-2">
@@ -20,10 +22,10 @@ export default function HomeBanner() {
           Free Instant Rental Analysis
           <img src="/icons/arrow-forward.svg" alt="" className="w-5 h-5" />
         </button>
-        <button className="px-5 py-3 bg-amber-100 justify-center items-center gap-[11px] inline-flex text-stone-900 text-base font-medium uppercase tracking-wide">
+        <Link to="/pricing" className="px-5 py-3 bg-amber-100 justify-center items-center gap-[11px] inline-flex text-stone-900 text-base font-medium uppercase tracking-wide">
           Pricing
           <img src="/icons/arrow-forward.svg" alt="" className="w-5 h-5" />
-        </button>
+        </Link>
         <button className="px-5 py-3 bg-stone-900 justify-center items-center gap-[11px] inline-flex text-white text-base font-medium uppercase tracking-wide">
           Find a Rental
           <img

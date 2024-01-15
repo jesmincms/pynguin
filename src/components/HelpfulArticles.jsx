@@ -3,10 +3,9 @@ import { Pagination, Autoplay, A11y } from "swiper/modules";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
-import Title from "../Title";
+import Title from "./Title";
 
 const articles = [
   {

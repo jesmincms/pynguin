@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -37,7 +38,7 @@ export default function Footer() {
             <li>Home</li>
             <li>Services</li>
             <li>Areas we Serve</li>
-            <li>Pricing</li>
+            <li><Link to="/pricing">Pricing</Link></li>
             <li>Team</li>
             <li>Referrals</li>
             <li>Resources</li>
@@ -80,7 +81,7 @@ export default function Footer() {
           <ul className="flex flex-col gap-3 text-sm lg:gap-5 lg:text-base">
             <li>Portal</li>
             <li>Our Services</li>
-            <li>Our Pricing </li>
+            <li><Link to="/pricing">Our Pricing</Link> </li>
             <li>FAQs</li>
           </ul>
         </div>

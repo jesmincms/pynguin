@@ -240,3 +240,26 @@ code {
 .helpful_articles .swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: #FFC629;
 }
+.top-left-border {
+  position: absolute;
+  width: 1px;
+  height: 70px;
+  background: #000;
+  top: 30px;
+}
+.bottom-left-border {
+  position: absolute;
+  width: 1px;
+  height: 70px;
+  background: #000;
+  bottom: 0px;
+  left: 0;
+}
+.bottom-right-border {
+  position: absolute;
+  width: 1px;
+  height: 70px;
+  background: #000;
+  bottom: 0px;
+  right: 0;
+}

@@ -43,9 +43,12 @@ const PricingTable = () => {
                 </th>
               </tr>
             </thead>
-            <tbody className="shadow-outline-red rounded-tl-[40px] rounded-b-[15px] rounded-tr-[0px] overflow-hidden text-sm text-[#1E1E1E]">
-              <tr className="border-b border-[#000000]">
-                <td className="border-x border-[#000000]  p-8 bg-[#EEEEEE] rounded-tl-[40px]">
+            <tbody className="shadow-outline-red relative rounded-tl-[40px] rounded-b-[15px] rounded-tr-[0px] overflow-hidden text-sm text-[#1E1E1E]">
+              <div className="top-left-border"></div>
+              <div className="bottom-left-border"></div>
+              <div className="bottom-right-border"></div>
+              <tr className="border-b border-[#000000] bg-[#EEEEEE]">
+                <td className="border-r border-[#000000] p-8 rounded-tl-[40px]">
                   Monthly Management Fee
                 </td>
                 <td className="border-r border-[#000000]  p-8 bg-[#EEEEEE] text-xl font-bold">
@@ -224,7 +227,9 @@ const PricingTable = () => {
                   $99 per inspection
                 </td>
                 <td className="border-r border-[#000000] px-8 py-3">Annual</td>
-                <td className="px-8 py-3 border-r border-[#000000]">Bi-Annua</td>
+                <td className="px-8 py-3 border-r border-[#000000]">
+                  Bi-Annua
+                </td>
               </tr>
               <tr className="border-b border-[#000000]">
                 <td className="border-x border-[#000000] px-8 py-3">

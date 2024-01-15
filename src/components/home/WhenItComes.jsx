@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function WhenItComes() {
   return (
     <div className="max-w-[1556px] flex flex-col lg:flex-row mx-auto text-stone-900 justify-between gap-5 lg:gap-16 mt-[30px]">
@@ -18,10 +20,10 @@ export default function WhenItComes() {
           care about you, your property, and your tenant.
         </div>
 
-        <div className="gap-5 flex mt-5 lg:mt-20">
-          <button className="px-10 py-3 bg-amber-400 rounded-[10px] justify-center items-center gap-1.5 flex text-base font-medium">
+        <div className="flex gap-5 mt-5 lg:mt-20">
+          <Link to="/pricing" className="px-10 py-3 bg-amber-400 rounded-[10px] justify-center items-center gap-1.5 flex text-base font-medium">
             Services & Pricing
-          </button>
+          </Link>
           <button className="px-10 py-3 rounded-[10px] border border-stone-900 justify-center items-center gap-1.5 flex text-base font-medium">
             Schedule a Call
           </button>

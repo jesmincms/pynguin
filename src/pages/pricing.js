@@ -7,7 +7,7 @@ import Service from "../components/pricing/Service";
 import Progress from "../components/pricing/Progress";
 import Faq from "../components/pricing/Faq";
 import ServicesExplained from "../components/pricing/ServicesExplained";
-import HelpfulArticles from "../components/pricing/HelpfulArticles";
+import HelpfulArticles from "../components/HelpfulArticles";
 export default function PricingPage() {
   return (
     <>
