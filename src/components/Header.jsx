@@ -1,5 +1,6 @@
 import { Button, Drawer, Menu } from "antd";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const items = [
   {
@@ -53,8 +54,8 @@ export default function Header() {
       <div className="bg-[#EDEDED] min-h-[60px] flex items-center px-2 lg:px-[50px] justify-end ">
 
         <div className="flex flex-col w-fit md:gap-10 md:flex-row right">
-          <span>Owner Portal</span>
-          <span>Tenant Portal</span>
+          <span><Link to="https://pynguinpm.rentvine.com/portals/owner">Owner Portal</Link></span>
+          <span><Link to="https://pynguinpm.rentvine.com/portals/resident/">Tenant Portal</Link></span>
           <span>
             <img
               src="/icons/phone.svg"
@@ -66,11 +67,13 @@ export default function Header() {
         </div>
       </div>
       <div className="bg-[#fff] py-6 flex items-center px-2 lg:px-[50px] justify-between text-left gap-2">
+        <Link to="/">
         <img
           src="/logo.png"
           alt=""
           className="invert md:w-[180px] object-contain"
         />
+        </Link>
         <div className="hidden lg:flex">
           <Menu mode="horizontal" items={items} className="text-lg" />
         </div>
