@@ -57,10 +57,20 @@ code {
   }
 }
 .home-banner {
-  background-image: url("/public/images/home-banner.png");
+  background-image: url("/public/images/pynguin-hero.webp");
   background-position: bottom center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-size: cover;
+  animation: marquee 50s infinite linear;
+}
+@keyframes marquee {
+  0% {
+    background-position: bottom center;
+  }
+
+  100% {
+    background-position: -1190px;
+  }
 }
 .black-to-yellow {
   filter: invert(80%) sepia(26%) saturate(1559%) hue-rotate(337deg)
@@ -96,34 +106,34 @@ code {
 .progress__item:first-child::after {
   left: 60px;
 }
-.progress__item:nth-child(2)::after{
+.progress__item:nth-child(2)::after {
   left: 55px;
 }
-.progress__item:nth-child(2)::after{
+.progress__item:nth-child(2)::after {
   left: 55px;
 }
-.progress__item:nth-child(4)::after{
+.progress__item:nth-child(4)::after {
   width: 112%;
 }
-.progress__item:nth-child(5)::after{
+.progress__item:nth-child(5)::after {
   left: 55px;
 }
-.progress__item:nth-child(7)::after{
+.progress__item:nth-child(7)::after {
   width: 112%;
 }
-.progress__item:nth-child(8)::after{
+.progress__item:nth-child(8)::after {
   left: 55px;
 }
-.progress__item:nth-child(10)::after{
+.progress__item:nth-child(10)::after {
   width: 112%;
 }
-.progress__item:nth-child(11)::after{
+.progress__item:nth-child(11)::after {
   left: 55px;
 }
-.progress__item:nth-child(13)::after{
+.progress__item:nth-child(13)::after {
   width: 112%;
 }
-.progress__item:nth-child(14)::after{
+.progress__item:nth-child(14)::after {
   left: 55px;
 }
 
@@ -136,13 +146,13 @@ code {
   left: 60%;
   transform: translateX(-40%);
 }
-.progress__item:nth-child(4)::before{
+.progress__item:nth-child(4)::before {
   content: url(/public/images/play_icon_right.svg);
 }
-.progress__item:nth-child(5)::before{
+.progress__item:nth-child(5)::before {
   content: url(/public/images/play_icon_right.svg);
 }
-.progress__item:nth-child(6)::before{
+.progress__item:nth-child(6)::before {
   content: url(/public/images/play_icon_right.svg);
 }
 
@@ -238,7 +248,7 @@ code {
   height: 12px;
 }
 .helpful_articles .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background-color: #FFC629;
+  background-color: #ffc629;
 }
 .top-left-border {
   position: absolute;

@@ -3,10 +3,9 @@ import { Link } from "react-router-dom";
 export default function WhyHomeowners() {
   return (
     <div className="bg-white mb-10 sm:mb-[90px]">
-      <div className="max-w-[940px] mx-auto">
+      <div className="text-center max-w-[940px] mx-auto">
         <span className="text-3xl md:text-5xl font-normal font-['Helvetica Light'] md:leading-[64px] tracking-wide">
-          Why <span className="font-bold font-['Helvetica']">homeowners</span>
-          trust Pynguin Property Management in Orlando
+          Why <span className="font-bold font-['Helvetica']">homeowners</span> trust Pynguin Property Management in Orlando
         </span>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-[70px] max-w-[1560px] mx-auto mt-6 md:mt-[70px]">
@@ -57,7 +56,7 @@ const content = [
       tenants who are likely to pay rent on
       time and maintain the property in
       good condition.`,
-    image: `/images/image 33.png`,
+    image: `/images/Resp-Tenants.png`,
   },
   {
     title: "Local Expertise & Experience",
@@ -68,7 +67,7 @@ const content = [
       demographics, and local regulations,
       and we have the experience to guide
       you through it all.`,
-    image: `/images/image 35.png`,
+    image: `/images/Local-Expert.png`,
   },
   {
     title: "Management & Repairs",
@@ -79,6 +78,6 @@ const content = [
       network of reliable and qualified
       contractors to handle maintenance
       requests and repairs promptly.`,
-    image: `/images/image 34.png`,
+    image: `/images/Maint-Repairs.png`,
   },
 ];
