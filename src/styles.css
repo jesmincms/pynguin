@@ -273,3 +273,55 @@ code {
   bottom: 0px;
   right: 0;
 }
+
+/* Services Page */
+.services_banner {
+  background-image: url("/public/images/Local-Expert.png");
+  background-position: center right 50px;
+  background-repeat: no-repeat;
+  background-size: 27%;
+}
+.services_cta {
+  background-image: url("/public/images/HOUSES.png");
+  background-position: center left 100px;
+  background-repeat: no-repeat;
+  background-size: 8%;
+}
+
+.cool_solutions {
+  background: linear-gradient(0deg, #FFFFFF 0%, #FDF4DC 100%);
+}
+.cool_solutions .cool_solutions_item {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 10px;
+}
+.accordion .accordion_title {
+  display: grid;
+  grid-template-columns: 1fr 30px;
+  gap: 8px;
+}
+@media screen and (max-width: 1700px) {
+  .services_banner {
+    background-size: 30%;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .services_banner {
+    background-size: 35%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .services_banner {
+    background-size: 40%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .services_banner {
+    background-image: none;
+  }
+  .services_cta {
+    background-image: none;
+  }
+}
+
