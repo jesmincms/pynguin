@@ -5,7 +5,7 @@ const WereReady = () => {
     <div className="py-10 lg:py-16 xl:py-20 bg-[#D9D9D9]">
       <div className="container px-4 mx-auto">
         <div className="grid grid-cols-12 gap-5">
-          <div className="col-span-12 text-center lg:col-start-3 lg:col-end-10">
+          <div className="col-span-12 text-center lg:col-start-3 lg:col-end-11">
             <h2 className="text-[28px] leading-[34px] mb-8">
               We’re ready to start delivering rental income to you!
             </h2>

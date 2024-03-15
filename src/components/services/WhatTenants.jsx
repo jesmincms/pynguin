@@ -13,7 +13,7 @@ const WhatTenants = () => {
           </div>
         </div>
         <div className="grid grid-cols-12 gap-5">
-          <div className="col-span-12 xl:col-start-3 xl:col-end-10">
+          <div className="col-span-12 xl:col-start-3 xl:col-end-11">
             <div className="grid grid-cols-12 gap-5 xl:gap-20">
               <div className="col-span-6 text-center md:col-span-4">
                 <img className="mx-auto mb-5" src="/icons/layer_1.svg" alt="" />

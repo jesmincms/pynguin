@@ -5,7 +5,7 @@ const ServicesSolutions = () => {
     <div className="py-10 services_solution lg:py-16 xl:py-20">
       <div className="container px-4 mx-auto">
         <div className="grid grid-cols-12 gap-5">
-          <div className="col-span-12 text-center lg:col-start-3 lg:col-end-10">
+          <div className="col-span-12 text-center lg:col-start-3 lg:col-end-11">
             <h2 className="text-[28px] leading-[39px] text-black mb-8">
               Cool Solutions for Warm Relations with Our Landlords Begins with
               Pynguin's Top Tier Property Management Services

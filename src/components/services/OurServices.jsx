@@ -5,7 +5,7 @@ const OurServices = () => {
     <div className="py-10 lg:py-16 xl:py-20 our_services">
       <div className="container px-4 mx-auto">
         <div className="grid grid-cols-12 gap-5 mb-16">
-          <div className="col-span-12 text-center lg:col-start-3 lg:col-end-10 xl:col-start-4 xl:col-end-9">
+          <div className="col-span-12 text-center lg:col-start-3 lg:col-end-11 xl:col-start-4 xl:col-end-10">
             <h2 className="text-[28px] leading-[39px]">Our Services</h2>
             <p>What We Do For Our Valued Property Management Clients</p>
           </div>

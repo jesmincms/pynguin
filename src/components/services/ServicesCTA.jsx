@@ -5,7 +5,7 @@ const ServicesCTA = () => {
     <div className="py-10 text-white bg-black services_cta lg:py-16">
       <div className="container px-4 mx-auto text-center">
         <div className="grid grid-cols-12 gap-5">
-          <div className="col-span-12 lg:col-start-3 lg:col-end-10 xl:col-start-4 xl:col-end-9">
+          <div className="col-span-12 lg:col-start-3 lg:col-end-11 xl:col-start-4 xl:col-end-10">
             <h2 className="text-[28px] leading-[39px]">Get an instant Rental Analysis</h2>
             <p>
               Find out how much you can charge for your rental property in

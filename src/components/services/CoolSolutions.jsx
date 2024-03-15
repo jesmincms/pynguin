@@ -5,14 +5,14 @@ const CoolSolutions = () => {
     <div className="py-10 lg:py-16 xl:py-20 cool_solutions">
       <div className="container px-4 mx-auto">
         <div className="grid grid-cols-12 gap-5 mb-16">
-          <div className="col-span-12 text-center lg:col-start-3 lg:col-end-10 xl:col-start-4 xl:col-end-9">
+          <div className="col-span-12 text-center lg:col-start-3 lg:col-end-11 xl:col-start-4 xl:col-end-10">
             <h2 className="text-[28px] leading-[39px]">
               Cool Solutions, Warm Relations. That's the Pynguin Promise.
               Stamped with <span className="font-bold">our guarantees.</span>
             </h2>
           </div>
         </div>
-        <div className="grid grid-cols-12 gap-8 mb-10">
+        <div className="grid grid-cols-12 gap-4 mb-10 lg:gap-8">
           <div className="h-auto col-span-12 mb-4 md:col-span-6">
             <div className="cool_solutions_item">
               <div className="cool_solutions_image">

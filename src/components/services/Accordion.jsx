@@ -24,12 +24,12 @@ const Accordion = ({
       >
         <div
           className={`accordion_title  cursor-pointer ${
-            !background && `pt-4 pb-5`
+            !background && `pb-5`
           }`}
           onClick={handleClick}
         >
           <h3 className={`${
-              background && "mb-3"
+              (background && isActive) && "mb-3"
             }`}>{title}</h3>
 
           <div
@@ -42,9 +42,9 @@ const Accordion = ({
         </div>
         {isActive && (
           <div className={`accordion-cotext-black text-[20px] font-normal leading-[28px] ${
-            background ? "mb-1 mr-9" : "ml-10 mb-4"
-          }`}>
-            {content}
+            background ? "mb-1 mr-9" : "ml-10 mb-5"
+          }`}dangerouslySetInnerHTML={{ __html: content }} >
+            
           </div>
         )}
         {!background && <div className="w-full h-[1px] bg-black" />}

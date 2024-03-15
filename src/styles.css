@@ -301,6 +301,18 @@ code {
   grid-template-columns: 1fr 30px;
   gap: 8px;
 }
+.accordion ol {
+  list-style: lower-alpha;
+}
+.accordion ol li {
+  margin-bottom: 10px;
+}
+.accordion ul {
+  list-style: disc;
+}
+.accordion ul li {
+  margin-bottom: 10px;
+}
 @media screen and (max-width: 1700px) {
   .services_banner {
     background-size: 30%;

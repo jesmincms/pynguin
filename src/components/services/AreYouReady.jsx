@@ -5,7 +5,7 @@ const AreYouReady = () => {
     <div className="py-10 text-white bg-black lg:py-16 xl:py-20 are_you_ready">
       <div className="container px-4 mx-auto text-center">
         <div className="grid grid-cols-12 gap-5">
-          <div className="col-span-12 lg:col-start-3 lg:col-end-10 xl:col-start-4 xl:col-end-9">
+          <div className="col-span-12 lg:col-start-3 lg:col-end-11 xl:col-start-4 xl:col-end-10">
             <h3 className="text-[36px] leading-[43px]">
               Are you ready to become a landlord?
             </h3>
