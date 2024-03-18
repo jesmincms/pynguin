@@ -8,9 +8,7 @@ const PricingBanner = () => {
           <div className="flex flex-col justify-center col-span-12 xl:pr-10 lg:col-span-7">
             <h2 className="text-[45px] xl:text-[60px] font-bold leading-[60px] mb-6">OUR PROCESS & PRICING, MORE REASONS TO DIVE IN</h2>
             <p className="mb-6 lg:mb-0">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat.
+            Our comprehensive property management services for Central Florida property owners include tenant screening, maintenance, and financial reporting, all delivered through a client-focused process and adaptable pricing to ensure satisfaction and optimal property performance.
             </p>
           </div>
           <div className="col-span-12 lg:col-span-5">
