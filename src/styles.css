@@ -58,10 +58,9 @@ code {
 }
 .home-banner {
   background-image: url("/public/images/pynguin-hero.webp");
-  background-position: bottom center;
+  background-position: bottom -60px center;
   background-repeat: repeat-x;
   background-size: cover;
-  animation: marquee 50s infinite linear;
 }
 @keyframes marquee {
   0% {

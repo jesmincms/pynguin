@@ -4,7 +4,7 @@ export default function HomeBanner() {
   return (
     <>
 
-    <div className="home-banner  flex flex-col justify-center items-center md:pt-12 md:pb-[350px] px-2 relative">
+    <div className="home-banner  flex flex-col justify-center items-center md:pt-[100px] md:pb-[500px] px-2 relative">
       <div className="text-center text-stone-900 text-4xl font-extrabold md:leading-[60px] max-w-[680px]">
         ORLANDO PROPERTY MANAGEMENT
       </div>
@@ -34,7 +34,7 @@ export default function HomeBanner() {
           <img src="/icons/arrow-forward.svg" alt="" className="w-5 h-5" />
         </button>
       </div>
-      <div className="text-center text-stone-900 text-xl font-normal leading-[29.80px] absolute bottom-10">
+      <div className="text-center text-stone-900 text-2xl font-bold leading-[29.80px] absolute bottom-10">
         Your property rented in 21 days or you pay us nothing
         {/* <img
           src="/icons/underline 1.svg"
