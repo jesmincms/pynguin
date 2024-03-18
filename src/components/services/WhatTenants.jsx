@@ -30,7 +30,7 @@ const WhatTenants = () => {
                 </span>
               </div>
               <div className="col-span-6 text-center md:col-span-4">
-                <img className="mx-auto mb-5" src="/icons/layer_1.svg" alt="" />
+                <img className="mx-auto mb-5" src="/icons/layer_3.svg" alt="" />
                 <span>
                   Improve Your <span className="font-bold">Credit Score</span>{" "}
                   While you Rent
