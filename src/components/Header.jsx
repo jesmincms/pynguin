@@ -34,10 +34,13 @@ const items = [
     key: "Referrals",
   },
   {
-    label: "Resources",
-    key: "Resources",
+    label: (
+      <a href="/contact">Contact Us</a>
+    ),
+    key: "Contact Us",
   },
 ];
+
 export default function Header() {
   const [state, setState] = useState(false);
 
@@ -48,8 +51,6 @@ export default function Header() {
   const onClose = () => {
     setState(false);
   };
-
-
 
   return (
     <div className="header">
