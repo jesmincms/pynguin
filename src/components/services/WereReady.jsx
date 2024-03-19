@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const WereReady = () => {
   return (
@@ -10,9 +11,9 @@ const WereReady = () => {
               We’re ready to start delivering rental income to you!
             </h2>
             <div className="flex justify-center gap-3">
-              <button className="px-6 py-[10px] bg-black rounded-[10px] justify-center items-center gap-1.5 flex text-[#F7C74F] text-base font-medium w-full md:w-fit">
+              <Link to="/pricing" className="px-6 py-[10px] bg-black rounded-[10px] justify-center items-center gap-1.5 flex text-[#F7C74F] text-base font-medium w-full md:w-fit">
               See Our Pricing
-              </button>
+              </Link>
               <button className="px-6 py-[10px] bg-white rounded-[10px] justify-center items-center gap-1.5 flex text-black text-base font-medium w-full md:w-fit">
                 Get Your Estimate
               </button>

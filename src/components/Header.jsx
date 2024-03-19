@@ -4,39 +4,19 @@ import { Link } from "react-router-dom";
 
 const items = [
   {
-    label: (
-      <a href="/">Home</a>
-    ),
+    label: <Link to="/">Home</Link>,
     key: "home",
   },
   {
-    label: (
-      <a href="/services">Services</a>
-    ),
+    label: <Link to="/services">Services</Link>,
     key: "Services",
   },
   {
-    label: "Areas we Serve",
-    key: "Areas we Serve",
-  },
-  {
-    label: (
-      <a href="/pricing">Pricing</a>
-    ),
+    label: <Link to="/pricing">Pricing</Link>,
     key: "Pricing",
   },
   {
-    label: "Team",
-    key: "Team",
-  },
-  {
-    label: "Referrals",
-    key: "Referrals",
-  },
-  {
-    label: (
-      <a href="/contact">Contact Us</a>
-    ),
+    label: <Link to="/contact">Contact Us</Link>,
     key: "Contact Us",
   },
 ];
@@ -55,10 +35,17 @@ export default function Header() {
   return (
     <div className="header">
       <div className="bg-[#EDEDED] min-h-[60px] flex items-center px-2 py-2 lg:px-[50px] justify-center md:justify-end ">
-
         <div className="flex flex-col w-fit md:gap-10 md:flex-row right">
-          <span><Link to="https://pynguinpm.rentvine.com/portals/owner">Owner Portal</Link></span>
-          <span><Link to="https://pynguinpm.rentvine.com/portals/resident/">Tenant Portal</Link></span>
+          <span>
+            <Link to="https://pynguinpm.rentvine.com/portals/owner">
+              Owner Portal
+            </Link>
+          </span>
+          <span>
+            <Link to="https://pynguinpm.rentvine.com/portals/resident/">
+              Tenant Portal
+            </Link>
+          </span>
           <span>
             <img
               src="/icons/phone.svg"
@@ -71,11 +58,11 @@ export default function Header() {
       </div>
       <div className="bg-[#fff] py-6 flex items-center px-2 lg:px-[50px] justify-between text-left gap-2">
         <Link to="/">
-        <img
-          src="/logo.png"
-          alt=""
-          className="invert md:w-[180px] object-contain"
-        />
+          <img
+            src="/logo.png"
+            alt=""
+            className="invert md:w-[180px] object-contain"
+          />
         </Link>
         <div className="hidden lg:flex">
           <Menu mode="horizontal" items={items} className="text-lg" />
@@ -100,13 +87,18 @@ export default function Header() {
           open={state}
         >
           <ul className="flex gap-2 text-[18px] flex-wrap sm:flex-nowrap pb-3 w-fit flex-col">
-            <li>Home</li>
-            <li>Services</li>
-            <li>Areas we Serve</li>
-            <li><a href="/pricing">Pricing</a></li>
-            <li>Team</li>
-            <li>Referrals</li>
-            <li>Resources</li>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/service">Services</Link>
+            </li>
+            <li>
+              <Link to="/pricing">Pricing</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact Us</Link>
+            </li>
           </ul>
         </Drawer>
       </div>

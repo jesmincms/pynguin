@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function OurGuarantees() {
   return (
     <div className="flex flex-col text-stone-900 bg-[#FFFCF4] py-10 lg:py-[86px] mt-7 lg:mt-[100px] text-left">
@@ -123,9 +125,9 @@ export default function OurGuarantees() {
         <button className="px-4 md:px-10 py-3 bg-amber-400 rounded-[10px] justify-center items-center flex">
           VIEW OUR GUARANTEES
         </button>
-        <button className="px-4 md:px-10 py-3 rounded-[10px] border border-stone-900 justify-center items-center flex">
+        <Link to="/contact" className="px-4 md:px-10 py-3 rounded-[10px] border border-stone-900 justify-center items-center flex">
           CONTACT US
-        </button>
+        </Link>
       </div>
     </div>
   );

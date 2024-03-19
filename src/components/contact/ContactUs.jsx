@@ -8,7 +8,7 @@ const ContactUs = () => {
     if (state.succeeded) {
       setSuccess("Email sent successfully!");
       setTimeout(() => {
-        window.location.reload();
+        setSuccess("Send Email");
       }, 3000);
     }
   }, [state.succeeded]);

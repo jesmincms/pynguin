@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const AreYouReady = () => {
   return (
@@ -13,9 +14,9 @@ const AreYouReady = () => {
               Schedule a free consultation with one of our property management
               pros now.
             </p>
-            <button className="px-6 py-[10px] bg-[#F7C74F] rounded-[10px] justify-center items-center gap-1.5 flex text-black text-base font-medium w-full md:w-fit mx-auto mt-8">
+            <Link to="/contact" className="px-6 py-[10px] bg-[#F7C74F] rounded-[10px] justify-center items-center gap-1.5 flex text-black text-base font-medium w-full md:w-fit mx-auto mt-8">
               Schedule a Free Consultation
-            </button>
+            </Link>
           </div>
         </div>
       </div>

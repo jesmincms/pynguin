@@ -35,13 +35,10 @@ export default function Footer() {
         <div>
           <h6 className="mb-3 uppercase lg:mb-6">Menu</h6>
           <ul className="flex flex-col gap-3 text-sm lg:gap-5 lg:text-base">
-            <li>Home</li>
-            <li>Services</li>
-            <li>Areas we Serve</li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/services">Services</Link></li>
             <li><Link to="/pricing">Pricing</Link></li>
-            <li>Team</li>
-            <li>Referrals</li>
-            <li>Resources</li>
+            <li><Link to="/contact">Contact Us</Link></li>
           </ul>
         </div>
 
