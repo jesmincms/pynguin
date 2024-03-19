@@ -65,7 +65,7 @@ export default function Header() {
           />
         </Link>
         <div className="hidden lg:flex">
-          <Menu mode="horizontal" items={items} className="text-lg" />
+          <Menu mode="horizontal" items={items} className="text-lg min-w-[400px] justify-end" />
         </div>
         <Button
           className="block lg:hidden"
