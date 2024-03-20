@@ -30,7 +30,7 @@ export default function RentalAnalysis() {
           <div className="w-[591px] h-[591px] right-0 top-[37px] absolute mix-blend-multiply bg-amber-100 rounded-full" />
           <img
             alt=""
-            src="/images/image 9.png"
+            src="/images/Pyn-Owners-app-screen.png"
             className="mt-20 z-10 relative md:mr-[84px] md:ml-auto"
           />
         </div>
