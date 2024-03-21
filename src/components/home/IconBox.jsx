@@ -8,7 +8,7 @@ export default function IconBox() {
         </div>
       </div>
       <div className="flex flex-col gap-5 items-center max-w-[200px] mt-5">
-        <img src="/icons/team.svg" alt="" />
+        <img class="max-w-[120px]" src="/icons/team.png" alt="" />
         <div className="text-3xl font-normal leading-10 text-center text-black">
           Experienced Team
         </div>
