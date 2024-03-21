@@ -1,7 +1,7 @@
 import React from "react";
-import Title from "../Title";
-import { IoCheckmarkSharp } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
+import { IoCheckmarkSharp } from "react-icons/io5";
+import Title from "../Title";
 
 const PricingTable = () => {
   return (
@@ -228,7 +228,7 @@ const PricingTable = () => {
                 </td>
                 <td className="border-r border-[#000000] px-8 py-3">Annual</td>
                 <td className="px-8 py-3 border-r border-[#000000]">
-                  Bi-Annua
+                  Bi-Annual
                 </td>
               </tr>
               <tr className="border-b border-[#000000]">

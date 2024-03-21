@@ -87,17 +87,7 @@ export default function Footer() {
         <p className="max-w-[400px] text-[#888] mt-10 lg:mt-[90px] text-xs">
         Copyright © 2010-{currentYear} Pynguin Property Management, LLC All Rights Reserved. Pynguin Property Management, LLC is committed to ensuring that its website is accessible to people with disabilities. All the pages on our website will meet W3C WAI's Web Content Accessibility Guidelines 2.0, Level A conformance.
         </p>
-        <div className="ml-px lg:ml-auto flex flex-wrap lg:justify-end max-w-[518px]">
-          <img src="/logos/image 14.png" alt="" className="inline-block mr-3" />
-          <img src="/logos/image 20.png" alt="" className="inline-block mr-3" />
-          <img src="/logos/image 23.png" alt="" className="inline-block mr-3" />
-          <img src="/logos/image 17.png" alt="" className="inline-block" />
-          <img src="/logos/image 16.png" alt="" className="inline-block mr-3" />
-          <img src="/logos/image 22.png" alt="" className="inline-block mr-3" />
-          <img src="/logos/image 21.png" alt="" className="inline-block mr-3" />
-          <img src="/logos/image 19.png" alt="" className="inline-block mr-3" />
-          <img src="/logos/image 18.png" alt="" className="inline-block" />
-        </div>
+
       </div>
     </div>
   );
