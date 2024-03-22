@@ -3,6 +3,7 @@ import { IoMdClose } from "react-icons/io";
 import { IoCheckmarkSharp } from "react-icons/io5";
 import Title from "../Title";
 
+
 const PricingTable = () => {
   return (
     <div className="py-14 lg:py-20">

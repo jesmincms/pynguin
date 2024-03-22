@@ -12,7 +12,7 @@ const PricingBanner = () => {
             </p>
           </div>
           <div className="col-span-12 lg:col-span-5">
-            <img className="mx-auto" src="/images/pricing-hero.png" alt="Pricing Banner" />
+            <img className="mx-auto" src="/images/pynguin-planting-flowers.png" alt="Pricing Banner" />
           </div>
         </div>
       </div>

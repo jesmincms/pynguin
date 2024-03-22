@@ -87,7 +87,6 @@ export default function Footer() {
         <p className="max-w-[400px] text-[#888] mt-10 lg:mt-[90px] text-xs">
         Copyright © 2010-{currentYear} Pynguin Property Management, LLC All Rights Reserved. Pynguin Property Management, LLC is committed to ensuring that its website is accessible to people with disabilities. All the pages on our website will meet W3C WAI's Web Content Accessibility Guidelines 2.0, Level A conformance.
         </p>
-
       </div>
     </div>
   );

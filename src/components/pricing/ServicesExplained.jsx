@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Title from "../Title";
 
 const ServicesExplained = () => {
@@ -49,9 +50,9 @@ const ServicesExplained = () => {
           </div>
         </div>
         <div className="mt-10 text-center ">
-          <button className="max-w-[292px] w-full px-6 py-3 bg-amber-400 rounded-[10px] justify-center items-center gap-1.5 inline-flex text-stone-900 text-base font-medium">
+          <Link to="/contact" className="max-w-[292px] w-full px-6 py-3 bg-amber-400 rounded-[10px] justify-center items-center gap-1.5 inline-flex text-stone-900 text-base font-medium">
             Let's Get Started
-          </button>
+          </Link>
         </div>
       </div>
     </div>
