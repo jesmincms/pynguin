@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
 import { useForm } from "@formspree/react";
+import React, { useEffect, useState } from "react";
 
 const ContactUs = () => {
   const [state, handleSubmit] = useForm("xgeglzrz");
@@ -14,6 +14,7 @@ const ContactUs = () => {
   }, [state.succeeded]);
 
   return (
+    <>
     <div className="py-10 lg:py-16 xl:py-24 contact_us">
       <div className="container px-4 mx-auto">
         <div className="grid grid-cols-12 gap-6 lg:gap-9">
@@ -87,6 +88,12 @@ const ContactUs = () => {
         </div>
       </div>
     </div>
+    <div className="mapouter">
+      <div className="gmap_canvas">
+        <iframe title="map" className="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=6735 Conroy Windermere Rd STE 315 Orlando, FL 32835&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+        </div>
+        </div>
+        </>
   );
 };
 

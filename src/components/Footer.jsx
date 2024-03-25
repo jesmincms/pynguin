@@ -48,10 +48,7 @@ export default function Footer() {
             <li>Monday - Friday</li>
             <li className="text-[#888]">8 a.m - 4 p.m</li>
           </ul>
-          <ul className="flex flex-col gap-[10px] max-w-[100%] md:max-w-[150px] text-sm lg:text-base">
-            <li>Document & Check Drop Off</li>
-            <li className="text-[#888]">24 Hours, No Cash</li>
-          </ul>
+
         </div>
 
         <div>

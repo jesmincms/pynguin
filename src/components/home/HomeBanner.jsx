@@ -22,25 +22,18 @@ export default function HomeBanner() {
           <img src="/icons/arrow-forward.svg" alt="" className="w-5 h-5" />
         </Link>
         <button className="px-5 py-3 bg-stone-900 justify-center items-center gap-[11px] inline-flex text-white text-base font-medium uppercase tracking-wide">
-          Find a Rental
+        Areas we serve
           <img
             src="/icons/arrow-forward.svg"
             alt=""
             className="w-5 h-5 invert"
           />
         </button>
-        <button className="px-5 py-3 bg-amber-100 justify-center items-center gap-[11px] inline-flex text-stone-900 text-base font-medium uppercase tracking-wide">
-          Areas we serve
-          <img src="/icons/arrow-forward.svg" alt="" className="w-5 h-5" />
-        </button>
+
       </div>
-      <div className="text-center text-stone-900 text-2xl font-bold leading-[29.80px] absolute bottom-10">
+      <div className="text-center text-stone-900 text-2xl font-bold leading-[29.80px] mt-[30px] mb-[40px]">
         Your property rented in 21 days or you pay us nothing
-        {/* <img
-          src="/icons/underline 1.svg"
-          alt=""
-          className="absolute top-[29.92px] right-0"
-        /> */}
+
       </div>
     </div>
     </>
