@@ -51,32 +51,24 @@ export default function Footer() {
 
         </div>
 
-        <div>
-          <h6 className="mb-3 uppercase lg:mb-6">Current Tenants</h6>
-          <ul className="flex flex-col gap-3 text-sm lg:gap-5 lg:text-base">
-            <li>Portal</li>
-            <li>Pay rent</li>
-            <li>Repair request</li>
-            <li>Resources</li>
-          </ul>
-        </div>
 
-        <div className="mb-6">
-          <h6 className="mb-3 uppercase lg:mb-6">Prospective Tenants</h6>
-          <ul className="flex flex-col gap-3 text-sm lg:gap-5 lg:text-base">
-            <li>Available Rentals</li>
-            <li>Apply Now</li>
-            <li>FAQs</li>
-            <li>Pet Policy</li>
-          </ul>
-        </div>
+
+
         <div className="mb-6">
           <h6 className="mb-3 uppercase lg:mb-6">Property Owners</h6>
           <ul className="flex flex-col gap-3 text-sm lg:gap-5 lg:text-base">
-            <li>Portal</li>
-            <li>Our Services</li>
+            <li>
+              <Link to="https://account.rentvine.com/auth/login">
+              Owner Portal
+              </Link>
+            </li>
+           <li>
+            <Link to="https://pynguinpm.rentvine.com/portals/resident/">
+                Tenant Portal
+              </Link>
+           </li>
+            <li><Link to="/services">Our Services</Link></li>
             <li><Link to="/pricing">Our Pricing</Link> </li>
-            <li>FAQs</li>
           </ul>
         </div>
       </div>

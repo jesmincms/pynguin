@@ -26,7 +26,7 @@ const PricingTable = () => {
                     alt=""
                   />
                 </th>
-                <th className="pt-6 pb-4 bg-[#FFC629] rounded-t-[40px]">
+                <th className="pt-6 pb-4 bg-[#FFD878] rounded-t-[40px]">
                   <span className="text-2xl font-bold">Full Service</span>
                   <img
                     className="mx-auto"

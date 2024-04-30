@@ -37,7 +37,7 @@ export default function Header() {
       <div className="bg-[#EDEDED] min-h-[60px] flex items-center px-2 py-2 lg:px-[50px] justify-center md:justify-end ">
         <div className="flex flex-col w-fit md:gap-10 md:flex-row right">
           <span>
-            <Link to="https://pynguinpm.rentvine.com/portals/owner">
+            <Link to="https://account.rentvine.com/auth/login">
               Owner Portal
             </Link>
           </span>
